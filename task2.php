@@ -1,7 +1,7 @@
 <html>
-	<link href="case2.css" rel="stylesheet">
+	<link href="task2.css" rel="stylesheet">
 	<meta charset="UTF-8">
-<form  method="GET">
+	<form  method="GET">
 	<p>
 		<img src="http://elhow.ru/images/articles/8/88/8867/inner.jpg"><br><br>
 		<img src="http://www-formula.ru/images/geometry/formula/triangle_height_formula.png"><br><hr>
@@ -46,3 +46,4 @@
 	}
  }
 ?>
+</html>
