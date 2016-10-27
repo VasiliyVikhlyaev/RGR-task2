@@ -6,19 +6,19 @@
 		<img src="http://elhow.ru/images/articles/8/88/8867/inner.jpg"><br><br>
 		<img src="http://www-formula.ru/images/geometry/formula/triangle_height_formula.png"><br><hr>
 	</p>
-Сторона a = <input type ="text" name= "a" <?php 
+Сторона a = <input type ="text" name= "a" value="<?php 
 	if (isset ($_GET['a'])) {
 		echo htmlspecialchars($_GET['a']);
 	}
 	?> ">
 		
-Сторона b = <input type ="text" name="b" <?php 
+Сторона b = <input type ="text" name="b" value="<?php 
 	if (isset ($_GET['b'])) {
 		echo htmlspecialchars ($_GET['b']);
 	}
 	?> ">
 		
-Сторона c = <input type ="text" name="c" <?php 
+Сторона c = <input type ="text" name="c" value="<?php 
 	if (isset ($_GET['c'])) {
 		echo htmlspecialchars ($_GET['c']);
 	}
